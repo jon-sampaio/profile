@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  text-align: center;
+  color: aqua;
+  font-family: Opensans;
+  }
+
+h1 {
+  color: rgb(225, 228, 227);
+  text-align: center;
+  font-family: Roboto;
+}
+
+h2 {
+  text-align: center;
+  color: aqua;
+  font-family: Roboto;
+}
+
+h3 {
+  text-align: center;
+  color: aqua;
+  font-family: Roboto;
+}
+
+p {
+  text-align: center;
+  color: aqua;
+  font-family: Roboto;
+}
+
+#Jonathas {
+  border-radius: 50%;
+}
+
+.card {
+  background: rgb(29, 29, 29);
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  margin: 20px 0px;
+}
+
+.container {
+  width: 600px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+  height: 100 px;
+  background-color: white;
+}
+
+.about {
+  background: rgb(29, 29, 29);
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  margin: 20px 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  font-size: 50px;
+  padding: 0px 20px;
+  }
+
+  div {
+    margin: 0 auto
+  }
+
+  a {
+    text-decoration: white;
+    background-color: none;
+    color: rgb(197, 195, 26);
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 16px rgba(0,0,0,0.1);
+    transition: 1s ease;
+  }
+  a:hover {
+    background-color: #ffffff;
+  }
+
+  @media (max-width: 960px) {
+    /* For a screen < 960px, this CSS will be read */
+    .container {
+      width: 700px;
+    }
+  }
